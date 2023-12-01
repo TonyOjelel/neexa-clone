@@ -1,0 +1,48 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navigation Bar styles */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-weight: bold;
+  }
+  
+  /* Form styles */
+  .form-control:focus {
+    border-color: rgb(56, 161, 56);
+    box-shadow: none;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  /* Submit button styles */
+  .btn-primary {
+    background-color: rgb(56, 161, 56);
+    border-color: rgb(56, 161, 56);
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(56, 161, 56);
+    border-color: rgb(56, 161, 56);
+  }
+
+  
+  

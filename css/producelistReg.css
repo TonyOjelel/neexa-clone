@@ -1,0 +1,210 @@
+/* Change background color */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Style the form */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(126, 225, 133, 0.3);
+}
+
+/* Style the form labels */
+form label {
+    font-weight: bold;
+}
+
+/* Style the form inputs */
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form select {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style the form textarea */
+form textarea {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style the submit button */
+form button[type="submit"] {
+    background-color: #2cd863;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #51b934;
+}
+
+/* Style the container */
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Style the page title */
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #d2f8d2;
+    box-shadow: 0px 2px 2px rgba(126, 225, 133, 0.3);
+}
+
+/* Style the navbar brand */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 28px;
+    color: #29c13d;
+}
+
+/* Style the navbar links */
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #29c13d;
+    margin-right: 20px;
+}
+
+/* Style the active navbar link */
+.navbar-nav .active > .nav-link {
+    color: #ffffff;
+    background-color: #29c13d;
+    border-radius: 4px;
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(126, 225, 133, 0.3);
+}
+
+/* Style the dropdown menu links */
+.dropdown-menu a {
+    color: #29c13d;
+}
+
+/* Style the dropdown menu active link */
+.dropdown-menu .active > a {
+    color: #ffffff;
+    background-color: #29c13d;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style for the navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #777;
+  }
+  
+  .nav-link:hover {
+    color: #333;
+  }
+  
+  /* Style for the registration modal */
+  .modal-header {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .modal-title {
+    font-weight: bold;
+  }
+  
+  /* Style for the category dropdown */
+  .form-control {
+    border-color: #007bff;
+  }
+  
+  /* Style for the add produce button */
+  .btn-primary.float-right {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary.float-right:hover {
+    background-color: #0062cc;
+    border-color: #0062cc;
+  }
+  
+  /* Style for the form labels */
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  /* Style for the form inputs */
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+  }
+  
+  /* Style for the submit button */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0062cc;
+    border-color: #0062cc;
+  }
+  

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Masajja Farm - Cart</title>
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Link to Bootstrap JavaScript and jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="producelistReg.css">
+  <style>
+    /* Style your checkout form here */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        text-align: center;
+      }
+      h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Shopping Cart</h1>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tomatoes</td>
+          <td>Ugx 5,000</td>
+          <td>2</td>
+          <td>Ugx 10,000</td>
+          <td><button type="button" class="btn btn-danger">Remove</button></td>
+        </tr>
+        <tr>
+          <td>Carrots</td>
+          <td>Ugx 7,000</td>
+          <td>1</td>
+          <td>Ugx 7,000</td>
+          <td><button type="button" class="btn btn-danger">Remove</button></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Total:</td>
+          <td>Ugx 17,000</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+    <div class="text-center">
+      <a href="producelistings.html" class="btn btn-default">Continue Shopping</a>
+      <a href="checkout.html" class="btn btn-primary">Proceed to Checkout</a>
+    </div>
+  </div>
+</body>
+</html>

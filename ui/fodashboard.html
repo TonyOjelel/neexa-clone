@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Ufarm-Dashboard</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+      name="viewport"
+    />
+    <!--     Fonts and icons     -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+    />
+    <!-- CSS Files -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="../assets/css/light-bootstrap-dashboard.css?v=2.0.0 "
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/producelistReg.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="sidebar" data-image="../assets/farmer.jpg" data-color="green">
+        <div class="sidebar-wrapper">
+          <div class="logo">
+            <a href="/index.html" class="simple-text"> Ufarm </a>
+          </div>
+          <ul class="nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/ui/fodashboard.html">
+                <i class="nc-icon nc-chart-pie-35"></i>
+                <p>Dashboard</p>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="/ui/user.html">
+                <i class="nc-icon nc-circle-09"></i>
+                <p>User Profile</p>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="/ui/Products.html">
+                <i class="nc-icon nc-grid-45"></i>
+                <p>Products</p>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="/ui/foMgt.html">
+                <i class="fa fa-leaf"></i>
+                <p>Farmer Management</p>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="/ui/notifications.html">
+                <i class="nc-icon nc-bell-55"></i>
+                <p>Notifications</p>
+              </a>
+            </li>
+            <li class="nav-item active active-pro">
+              <a class="nav-link active" href="/ui/auth/login.html">
+                <i class="nc-icon nc-settings-gear-64"></i>
+                <p>Logout</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-panel">
+        <div class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header">
+                    <h4 class="card-title">Total Sales Statistics</h4>
+                    <p class="card-category">1st Quarter Performance</p>
+                  </div>
+                  <div class="card-body">
+                    <div
+                      id="chartPreferences"
+                      class="ct-chart ct-perfect-fourth"
+                    ></div>
+                    <div class="legend">
+                      <i class="fa fa-circle text-info"></i> Horticulture
+                      <i class="fa fa-circle text-danger"></i> Dairy
+                      <i class="fa fa-circle text-warning"></i> Poultry
+                    </div>
+                    <hr />
+                    <div class="stats">
+                      <i class="fa fa-clock-o"></i> Statistics sent 2 days ago
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="card">
+                  <div class="card-header">
+                    <h4 class="card-title">Total Sales Statistics</h4>
+                    <p class="card-category">24 Hours performance</p>
+                  </div>
+                  <div class="card-body">
+                    <div id="chartHours" class="ct-chart"></div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="legend">
+                      <i class="fa fa-circle text-info"></i> Horticulture
+                      <i class="fa fa-circle text-danger"></i> Dairy
+                      <i class="fa fa-circle text-warning"></i> Poultry
+                    </div>
+                    <hr />
+                    <div class="stats">
+                      <i class="fa fa-history"></i> Updated 3 minutes ago
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">
+                    <h4 class="card-title">2022 Sales</h4>
+                    <p class="card-category">All products including Taxes</p>
+                  </div>
+                  <div class="card-body">
+                    <div id="chartActivity" class="ct-chart"></div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="legend">
+                      <i class="fa fa-circle text-info"></i> Horticulture
+                      <i class="fa fa-circle text-danger"></i> Dairy
+                    </div>
+                    <hr />
+                    <div class="stats">
+                      <i class="fa fa-check"></i> Data information certified
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!--   Core JS Files   -->
+  <script
+    src="../assets/js/core/jquery.3.2.1.min.js"
+    type="text/javascript"
+  ></script>
+  <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script
+    src="../assets/js/core/bootstrap.min.js"
+    type="text/javascript"
+  ></script>
+  <!--  Chartist Plugin  -->
+  <script src="../assets/js/plugins/chartist.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Bootstrap Dashboard -->
+  <script
+    src="../assets/js/light-bootstrap-dashboard.js?v=2.0.0 "
+    type="text/javascript"
+  ></script>
+  <!-- Bootstrap methods -->
+  <script src="../assets/js/demo.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      // Javascript method's body can be found in assets/js/demos.js
+      demo.initDashboardPageCharts();
+
+      demo.showNotification();
+    });
+  </script>
+</html>

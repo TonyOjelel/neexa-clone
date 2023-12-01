@@ -396,23 +396,24 @@ demo = {
         marker.setMap(map);
     },
 
-    showNotification: function(from, align) {
-        color = Math.floor((Math.random() * 4) + 1);
+    // showNotification: function(from, align) {
+    //     color = Math.floor((Math.random() * 4) + 1);
 
-        $.notify({
-            icon: "nc-icon nc-app",
-            message: "Login Successful"
+    //     $.notify({
+    //         icon: "nc-icon nc-app",
+    //         message: "Login Successful"
 
-        }, {
-            type: type[color],
-            timer: 8000,
-            placement: {
-                from: from,
-                align: align
-            }
-        });
+        // },
+        
+        // {
+        //     type: type[color],
+        //     timer: 8000,
+        //     placement: {
+        //         from: from,
+        //         align: align
+        //     }
+        // }
+        // );
     }
-
-
 
 }

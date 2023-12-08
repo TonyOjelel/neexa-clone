@@ -1,0 +1,566 @@
+  .div {
+    background-color: var(--app-neexa-ai-1280-x-580-default-2-nero, #fff);
+    display: flex;
+    padding-left: 60px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  @media (max-width: 991px) {
+    .div {
+      padding-left: 20px;
+    }
+  }
+  .div-2 {
+    display: flex;
+    margin-left: 20px;
+    gap: 0px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  .div-3 {
+    background-color: var(--app-neexa-ai-1280-x-580-default-2-nero, #fff);
+    display: flex;
+    flex-basis: 0%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div-4 {
+    align-items: flex-start;
+    background-color: var(--app-neexa-ai-1280-x-580-default-2-ebony, #060d15);
+    display: flex;
+    height: 580px;
+    flex-direction: column;
+  }
+  .div-5 {
+    justify-content: space-between;
+    border-right: 1px solid
+      var(--app-neexa-ai-1280-x-580-default-2-athens-gray, #eff2f5);
+    display: flex;
+    flex-basis: 0%;
+    flex-direction: column;
+    padding: 19px 21px 50px;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      padding-right: 20px;
+    }
+  }
+  .div-6 {
+    box-shadow: 0px 1.3px 13px 3.25px rgba(0, 0, 0, 0.05);
+    background-color: var(
+      --app-neexa-ai-1280-x-580-default-2-catskill-white,
+      #f5f8fa
+    );
+    display: flex;
+    margin-bottom: 308px;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 13px 9px 13px 19px;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      margin-bottom: 40px;
+    }
+  }
+  .div-7 {
+    align-items: center;
+    border-radius: 44px;
+    box-shadow: 0px 1.3px 13px 3.25px rgba(0, 0, 0, 0.05);
+    background-color: var(
+      --app-neexa-ai-1280-x-580-default-2-nero-02,
+      rgba(255, 255, 255, 0)
+    );
+    display: flex;
+    flex-basis: 0%;
+    flex-direction: column;
+    justify-content: center;
+    width: 88px;
+    height: 88px;
+    padding: 0 7px;
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  .div-8 {
+    padding-bottom: 13px;
+    align-self: center;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    margin: auto 0;
+  }
+  .div-9 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    text-align: center;
+    white-space: nowrap;
+    align-items: start;
+    border-bottom: 1px solid
+      var(--app-neexa-ai-1280-x-580-default-2-athens-gray, #e4e6ef);
+    padding: 3px 60px 11px 0;
+    font: 600 14px/21px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      white-space: initial;
+      padding-right: 20px;
+    }
+  }
+  .div-10 {
+    padding-right: 6px;
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .div-11 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    white-space: nowrap;
+    font: italic 400 13px/20px Inter, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      white-space: initial;
+    }
+  }
+  .div-12 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    white-space: nowrap;
+    font: 400 13px/20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-12 {
+      white-space: initial;
+    }
+  }
+  .div-13 {
+    justify-content: space-between;
+    border-radius: 8.13px;
+    background-color: var(--app-neexa-ai-1280-x-580-default-2-nero, #fff);
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    padding: 46px 35px 0;
+  }
+  @media (max-width: 991px) {
+    .div-13 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-14 {
+  }
+  @media (max-width: 991px) {
+    .div-14 {
+      max-width: 100%;
+    }
+  }
+  .div-15 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div-16 {
+    align-self: stretch;
+    border-radius: 8.13px;
+    box-shadow: 0px 1.3px 13px 3.25px rgba(0, 0, 0, 0.05);
+    background-color: var(--app-neexa-ai-1280-x-580-default-2-nero, #fff);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+  }
+  @media (max-width: 991px) {
+    .div-16 {
+      margin-top: 20px;
+    }
+  }
+  .div-17 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-nero, #fff);
+    white-space: nowrap;
+    justify-content: center;
+    align-items: start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    border-radius: 7.13px 7.13px 0px 0px;
+    border-bottom: 1px solid
+      var(--app-neexa-ai-1280-x-580-default-2-athens-gray, #eff2f5);
+    background-color: var(
+      --app-neexa-ai-1280-x-580-default-2-linear-royal-heath-congress-blue,
+      linear-gradient(90deg, #a32a7d 0%, #ff4081 100%)
+    );
+    padding: 7px 60px 7px 29px;
+    font: 500 17px/20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-17 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-18 {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 7px 6px;
+  }
+  .div-19 {
+    display: flex;
+    justify-content: space-between;
+    gap: 9px;
+    padding: 12px 10px 12px 20px;
+  }
+  .div-20 {
+    align-items: center;
+    border-radius: 44px;
+    box-shadow: 0px 1.3px 13px 3.25px rgba(0, 0, 0, 0.05);
+    background-color: var(
+      --app-neexa-ai-1280-x-580-default-2-nero-02,
+      rgba(255, 255, 255, 0)
+    );
+    display: flex;
+    flex-basis: 0%;
+    flex-direction: column;
+    justify-content: center;
+    width: 88px;
+    height: 88px;
+    padding: 0 7px;
+  }
+  .div-21 {
+    padding-bottom: 13px;
+    align-self: center;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    margin: auto 0;
+  }
+  .div-22 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    white-space: nowrap;
+    font: 600 13px/20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-22 {
+      white-space: initial;
+    }
+  }
+  .div-23 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    margin-top: 6px;
+    white-space: nowrap;
+    font: italic 400 13px/20px Inter, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-23 {
+      white-space: initial;
+    }
+  }
+  .div-24 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    white-space: nowrap;
+    font: 400 13px/20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-24 {
+      white-space: initial;
+    }
+  }
+  .div-25 {
+    display: flex;
+    margin-top: 23px;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .div-26 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    white-space: nowrap;
+    align-items: start;
+    justify-content: center;
+    padding: 6px 60px 6px 19px;
+    font: 400 13px/20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-26 {
+      white-space: initial;
+      padding-right: 20px;
+    }
+  }
+  .div-27 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    white-space: nowrap;
+    align-items: start;
+    justify-content: center;
+    padding: 7px 60px 7px 19px;
+    font: 400 13px/20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-27 {
+      white-space: initial;
+      padding-right: 20px;
+    }
+  }
+  .div-28 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    white-space: nowrap;
+    align-items: start;
+    justify-content: center;
+    padding: 6px 60px 6px 19px;
+    font: 400 13px/20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-28 {
+      white-space: initial;
+      padding-right: 20px;
+    }
+  }
+  .div-29 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-emerald, #50cd89);
+    white-space: nowrap;
+    align-items: start;
+    justify-content: center;
+    padding: 7px 60px 7px 19px;
+    font: 400 13px/20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-29 {
+      white-space: initial;
+      padding-right: 20px;
+    }
+  }
+  .div-30 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-emerald, #50cd89);
+    white-space: nowrap;
+    align-items: start;
+    justify-content: center;
+    padding: 6px 60px 6px 19px;
+    font: 400 13px/20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-30 {
+      white-space: initial;
+      padding-right: 20px;
+    }
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .div-31 {
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8.13px;
+    box-shadow: 0px 1.3px 13px 3.25px rgba(0, 0, 0, 0.05);
+    background-color: var(--app-neexa-ai-1280-x-580-default-2-nero, #fff);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  @media (max-width: 991px) {
+    .div-31 {
+      margin-top: 20px;
+    }
+  }
+  .div-32 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    white-space: nowrap;
+    justify-content: center;
+    align-items: start;
+    align-content: flex-start;
+    align-self: stretch;
+    flex-wrap: wrap;
+    border-radius: 7.13px 7.13px 0px 0px;
+    border-bottom: 1px solid
+      var(--app-neexa-ai-1280-x-580-default-2-athens-gray, #eff2f5);
+    background-color: var(
+      --app-neexa-ai-1280-x-580-default-2-linear-corn-robins-egg-blue,
+      linear-gradient(90deg, #e1ceff 0%, #ffcada 100%)
+    );
+    padding: 7px 60px 7px 29px;
+    font: 500 17px/20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-32 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-33 {
+    max-width: 299px;
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    margin-top: 25px;
+    font: 400 13px/20px Inter, sans-serif;
+  }
+  .div-34 {
+    align-self: stretch;
+    border-radius: 0px 0px 7.13px 7.13px;
+    border-top: 1px solid
+      var(--app-neexa-ai-1280-x-580-default-2-athens-gray, #eff2f5);
+    display: flex;
+    margin-top: 39px;
+    justify-content: space-between;
+    gap: 13px;
+    padding: 14px 80px 14px 13px;
+  }
+  @media (max-width: 991px) {
+    .div-34 {
+      padding-right: 20px;
+    }
+  }
+  .div-35 {
+    border-radius: 6.18px;
+    border: 1px solid var(--app-neexa-ai-1280-x-580-default-2-emerald, #50cd89);
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 7px;
+  }
+  .div-36 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-emerald, #50cd89);
+    text-align: center;
+    white-space: nowrap;
+    padding-left: 19px;
+    justify-content: center;
+    font: 500 14px/21px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-36 {
+      white-space: initial;
+    }
+  }
+  .div-37 {
+    border-radius: 6.18px;
+    border: 1px solid var(--app-neexa-ai-1280-x-580-default-2-emerald, #50cd89);
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 7px;
+  }
+  .div-38 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-emerald, #50cd89);
+    text-align: center;
+    white-space: nowrap;
+    padding-left: 18px;
+    justify-content: center;
+    font: 500 14px/21px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-38 {
+      white-space: initial;
+    }
+  }
+  .div-39 {
+    align-items: end;
+    align-self: start;
+    border-radius: 8.13px;
+    box-shadow: 0px 1.3px 13px 3.25px rgba(0, 0, 0, 0.05);
+    background-color: var(--app-neexa-ai-1280-x-580-default-2-nero, #fff);
+    display: flex;
+    margin-top: 13px;
+    width: 361px;
+    max-width: 100%;
+    padding-top: 6px;
+    flex-direction: column;
+  }
+  .div-40 {
+    justify-content: flex-end;
+    align-items: start;
+    display: flex;
+    width: 96px;
+    max-width: 100%;
+    gap: 7px;
+    padding: 10px 9px 10px 16px;
+  }
+  .div-41 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    white-space: nowrap;
+    border-radius: 6.18px;
+    border: 1px solid
+      var(--app-neexa-ai-1280-x-580-default-2-athens-gray, #e4e6ef);
+    aspect-ratio: 1.8095238095238095;
+    justify-content: center;
+    padding: 1px 8px;
+    font: 400 13px/20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-41 {
+      white-space: initial;
+    }
+  }
+  .div-42 {
+    align-items: flex-start;
+    border-radius: 6.18px;
+    background-color: var(
+      --app-neexa-ai-1280-x-580-default-2-athens-gray,
+      #e4e6ef
+    );
+    display: flex;
+    height: 22px;
+    flex-direction: column;
+    flex: 1;
+  }
+  .div-43 {
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    max-width: 286px;
+    justify-content: center;
+    align-self: stretch;
+    border-bottom: 1px solid
+      var(--app-neexa-ai-1280-x-580-default-2-athens-gray, #eff2f5);
+    padding: 7px 60px 7px 9px;
+    font: 500 17px/20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-43 {
+      padding-right: 26px;
+    }
+  }
+  .div-44 {
+    max-width: 288px;
+    color: var(--app-neexa-ai-1280-x-580-default-2-mirage, #181c32);
+    align-self: center;
+    margin-top: 26px;
+    font: 400 13px/20px Inter, sans-serif;
+  }
+
